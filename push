@@ -1,0 +1,27 @@
+deploy:
+	cd $(FOLDER_NAME) ;\
+	sls deploy --stage dev --region us-west-2;\
+	echo "Done"
+
+deploy_all:
+	@for d in */ ; do \
+        if [ -f "$${d}serverless.yml" ]; then \
+			echo "Deploying " $d  ;\
+            (cd $$d && sls deploy --stage dev --region us-west-2); \
+        fi; \
+    done
+
+
+destroy:
+	cd $(FOLDER_NAME) ;\
+	sls remove ;\
+	echo "Done"
+
+destroy_all:
+	@for d in */ ; do \
+        if [ -f "$${d}serverless.yml" ]; then \
+			echo "Deploying " $d  ;\
+            (cd $$d && sls remove --stage dev --region eu-west-2); \
+        fi; \
+    done
+

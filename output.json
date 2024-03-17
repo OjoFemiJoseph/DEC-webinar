@@ -1,0 +1,15 @@
+{
+    "Content": {
+        "Location": "https://awslambda-us-west-2-layers.s3.us-west-2.amazonaws.com/snapshots/{accountId}/web-0c8a6e0e-3966-4b59-a179-d4ac40e7355f?versionId=gwTcq4x2VYhfGkvEeStn.MutVXR9zJGk&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHbreiIB%2B8g3gKMez1jpgFgtVUodTdTVHOXcF5xQZ02KAiEA1cSny7q64F%2B81ZtgHZ8%2F3KMXmdwyZ71rRa1QDhTbZfIqugUIwf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgw1MDIyOTcwNzYxNjMiDKebW9KJRBO%2FpD1qfSqOBXP8dkJdJ0fimI0stDU3Y4UAFIONjb%2BY4Tc4dZ0mjqP4cmCGbGZR5lOlF1T0mMZ7bsUSRoggJdgeeso7k%2FyvrrR%2FprlQ2RofTitbQPooYbovCgwEs9YhZU%2BU%2Bmao8Z1fiKXbXUVFmpTgOqePRehU57oVrux4wuyXLDeQHOwAMGAJWexgvwiLL%2FmYcoqROen%2Fdfs5GKP9AwNW1z238sv8oLifnEmQfcKYkEH4DWBWFd%2BPmw5LpCrMmPnt%2FB5jAs%2FvAOV4ffJQvzxTQjjKRgfXyAkDjTQixagFjE2mdaq2hbJEwmE7g%2FpZGzEAlr79ew79imaYth6G5nUKSyHuzVP6zY9bUW6hxs2ud1q4bFlmagJ8Qa2vLyzim3GR4%2BEHtd1R12rKgGYTSsnVKlGZj%2FDTm%2F1mWFPLozrUOTqeMIJ7umsadzu%2FZ21AnpNEVQRU6%2BhwDgqptjFsKUr01jlU7l8hltEzzInFuxgCnL59Ua%2BX4Nyo53BGwMyWm4HxVwYBLwMyCHhcEYDgEAgKhvoJljBOXix0PrsfQ8OiEGKFwfglBmY7SYE%2Fg927tK4tvFLqdjw58pOwS6YZJp7Si%2FP9Ye2thAwsb93eBIxLjS6vWCrLg7G%2FVd3eB%2FzLysJaV%2FtIBIRIzMXUAgXIOH3yYScO6AH5rGpgoD8ovXQjaKcZgkrU4qex6Y%2FZ2WBLEWsoADimPd8rrmN3BdE5vHXK8XuMljuZjsfBbYhvhC1E2kUopvqB3UjX2IHWeod3w2uuqiV5ydokC0T3av1WNjss7efQo05PGx%2Flmne47t6l4y6GJIwSK9UMhQhLDUkF3H82UJueOl7qYsSMWyVaKlEfprciWvCfU%2BtcQyQlibs4%2BQqpTgs%2FPTDJt9yvBjqxAXOx%2FQ6ryU6BqUgfSKTRSzxz1c0lsaq5SZ4IpZJQGUqmzlbJEjapAzWkA1n3yGWley718J2A77OcWkdtpTMkYiLsEAyNYco%2FP5Go6OLQTYHQrqttenPJGYwnM05FQ4sbrnIgK%2F%2BAePffvpskftelSoapa0CNDbY%2Fmx5M9ewpftu2CvsrMZabg3DpSLHTz9aNe%2BgFudr8kaE96fD2lNSwYmRZc6bj1hVsAcbiIcvIHcUPVw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240317T173502Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIAXJ4Z5EHB6SYZ655K%2F20240317%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Signature=18e077d211a495010413f456bfb1c6b7c2fe1b770b61d91dec04d1ee27121e13",
+        "CodeSha256": "VCJiSWcO2qLxN5rzDM6nI4CltrcZN8/2dKYq1BTvpFw=",
+        "CodeSize": 48384917
+    },
+    "LayerArn": "arn:aws:lambda:us-west-2:{accountId}:layer:web",
+    "LayerVersionArn": "arn:aws:lambda:us-west-2:{accountId}:layer:web:1",
+    "Description": "",
+    "CreatedDate": "2024-03-17T17:35:13.517+0000",
+    "Version": 1,
+    "CompatibleRuntimes": [
+        "python3.8"
+    ]
+}

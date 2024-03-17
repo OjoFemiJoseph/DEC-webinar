@@ -1,0 +1,21 @@
+service: fixtures
+
+plugins:
+  - serverless-dotenv-plugin
+
+provider:
+  role: arn:aws:iam::${aws:accountId}:role/webinar_role
+  name: aws
+  stage: ${opt:stage, 'dev'}
+  runtime: python3.8
+  timeout: 900
+  memorySize: 512
+  region: ${opt:region, 'eu-west-2'}
+
+functions:
+  lambda:
+    handler: lambda_handler.lambda_handler
+    description: get fpl fixtures
+    layers:
+      - arn:aws:lambda:us-west-2:${aws:accountId}:layer:web:2
+

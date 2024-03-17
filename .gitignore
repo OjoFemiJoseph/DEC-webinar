@@ -1,0 +1,10 @@
+.env
+poetry*
+pyproject*
+Screensh*
+webinar.ipynb
+*.csv
+__pycache__/
+*.py[cod]
+package*
+node_modules
