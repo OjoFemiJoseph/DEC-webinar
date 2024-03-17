@@ -5,7 +5,7 @@ This project implements a serverless data pipeline on AWS. It leverages various 
 
 ## Architecture
 
-- **Total Costs:** ![Total Costs](/step_function_graph.png)
+- **Step Function Graph:** ![Total Costs](/step_function_graph.png)
 
 ## Cost Breakdown
 
